@@ -1,0 +1,51 @@
+.btn-medium {
+  color: #999999;
+  border: 1px solid #999999;
+  padding: 15px 25px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+.btn-medium:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+}
+.btn-treehouse {
+  color: white;
+  padding: 15px 25px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #6AD58B;
+  transition: background 0.3s ease;
+}
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac162;
+  text-decoration: none;
+  color: white;
+}
+
+.btn-yours{
+  color: grey;
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+  background: white;
+  transition: background 0.3s ease;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+
+
+}
+.btn-yours:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btn-yours:focus {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+
+}
+
+a {
+  display: inline-block;
+}
